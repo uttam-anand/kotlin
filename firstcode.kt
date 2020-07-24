@@ -4,6 +4,6 @@ fun main(args: Array<String>)
 
     var cable =geeks()
     cable.name="coder"
-    println("Name of the geek is "+cable.name)
+    println("Name of the geek is ${cable.name}")
 
 }
