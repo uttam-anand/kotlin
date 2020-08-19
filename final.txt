@@ -1,0 +1,32 @@
+1. Backtick is used as a escape character in  kotlin just to use the inbuilt keywords to be used at some other place(  ` `   )
+	before and after the keyword
+2. to take input in kotlin
+    	
+    	//first method
+    	var sc= scanner(system.`in`)
+    	var num= sc.nextInt()
+    	println(num)
+    	
+    	
+    	//second method
+    	var num1=readLine()
+    	println(num1)
+    	
+3. Array in kotlin
+
+	var nums = intArrayOf{10,12,14,16}//declaring an array// (IntArray{4})-> declaration without definition
+	//changing the value of an array
+	//num[1]=13
+	//changing the vlaue at an index  num.set(1,13)
+	for (i in nums)
+		println(i)
+	// some functions are set, get,last
+	//for any other datatype-->>  arrayOfNulls<String>{5}
+
+4. List in kotlin
+	 	
+	 
+	var nums= listOf<Int>{8,9,4,2}
+	get function uses the index 
+	indexOf function prints the index of the value of the specified element
+	Using MutableList<> for adiing the values
